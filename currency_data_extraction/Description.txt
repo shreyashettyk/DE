@@ -1,0 +1,9 @@
+Agenda:
+
+Extract the coin data from http://web.archive.org/web/20190312000208/https://coinmarketcap.com/ . The data extracted is 
+
+id,name,market_cap,price and voume(24h)
+
+The extracted data is then pushed into the mongodb cloud server, new entries, updates in entries and avoiding duplicate entries 
+are taken care of.
+
